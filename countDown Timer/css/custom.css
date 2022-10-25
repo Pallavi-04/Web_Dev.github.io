@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+
+
+/* At first, we created a main */
+.main {
+    width: 100%;
+    height: 100vh;
+    background: url('https://images.pexels.com/photos/139198/pexels-photo-139198.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Inside it, we created an overlay which is a display flexbox  */
+.overlay {
+    width: 100%;
+    height: 100%;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+}
+
+/* Inside that flexbox, we created 2 titles  */
+.title {
+    color: white;
+    font-size: 2.3rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* & a column (basically a div) */
+.col {
+    width: 1000px;
+    margin-top: 30px;
+    /* height: 100px; */
+    /* border: 1px red solid; */
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    color: white;
+}
+
+.col div {
+    width: 250px;
+    text-align: center;
+}
+
+/* Inside that column , we've taken 4 divs and made 4 input-boxes from it. */
+input {
+    width: 60%;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-color: transparent;
+    border-radius: 5px;
+    color: grey;
+    text-align: center;
+    font-size: 30px;
+    /* display: block; */
+}

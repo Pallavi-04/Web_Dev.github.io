@@ -72,3 +72,8 @@ input[type="submit"] {
 input[type="file"] {
     padding: 1px 2px;
 }
+
+
+#output_image {
+    max-width: 45px;
+}

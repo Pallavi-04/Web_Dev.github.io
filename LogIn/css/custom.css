@@ -14,12 +14,42 @@ p {
     text-align: center;
 }
 
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div {
+    padding: 25px;
+    padding-left: 10px;
+}
+
 form {
     width: 60vw;
     max-width: 500px;
     min-width: 300px;
     margin: 0 auto;
     padding-bottom: 2em;
+}
+
+.col {
+    display: block;
+    flex-direction: col;
+    padding: 4em;
+    /* width="300";
+    height="250"; */
+}
+
+/*HOVER Feature */
+.blink {
+    animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
 }
 
 fieldset {

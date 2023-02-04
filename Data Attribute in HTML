@@ -1,0 +1,12 @@
+Documentation on Data Attribute: https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes
+
+USING DATA ATTRIBUTES-------------------
+HTML is designed with extensibility in mind for data that should be associated with a particular element
+but need not have any defined meaning. data-* attributes allow us to store extra information on 
+standard, semantic HTML elements without other hacks such as non-standard attributes, or extra properties on DOM.
+
+Any attribute on any element whose attribute name starts with data- is a data attribute.
+
+<kbd>:
+The Keyboard Input element represents user input typically 
+from a keyboard, voice input, or any other text entry device

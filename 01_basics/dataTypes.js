@@ -23,7 +23,8 @@ let isAvailable = true
  *      undefined => variable declared but not initailised (undefined type)
  *      symbol => unique (used mostly in react )
  * 
- *  2) object
+ *  2) NON-Primitive
+ *        array    object   function
  */
  
 console.log(typeof "Shukla")    //returns string

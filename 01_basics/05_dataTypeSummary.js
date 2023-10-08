@@ -43,3 +43,27 @@ const myFunction = function() {
 //To know about the data-type 
 console.log(typeof myFunction); // returns function ,, but it is object function
 //--> typeof returns object in case of null
+
+// Episode 10__________________________________________________________
+
+// Stack (Primitive) , Heap (Non-Primitive)
+// Stack me copy milta but Heap me reference
+
+let myFriend  = "Aditi"
+
+let anotherFriend = myFriend    //copy of myFriend in stack
+anotherFriend = "Priyashi"
+
+console.log(myFriend);
+console.log(anotherFriend);
+
+let userOne = {
+    email : "abc@google.com",
+    up1 : "abc@oksbi"
+}
+
+let userTwo = userOne   //reference of userOne in Heap
+userTwo.email = "abc@ybl"
+
+console.log(userTwo.email);     
+console.log(userOne.email);     // value changed in userOne as well
